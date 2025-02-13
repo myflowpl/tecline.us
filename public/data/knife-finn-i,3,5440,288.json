@@ -1,0 +1,14 @@
+{
+  "title": "Knife Finn I",
+  "code": "50012",
+  "price": 42.92,
+  "currency": "EUR",
+  "category": "products/tecline/knives,2,5440",
+  "photos": [
+    {
+      "src": "img/4550/noz-finn-i.jpg",
+      "alt": "Nóż Finn I"
+    }
+  ],
+  "description": "\n<h2>Product description</h2>\n\n"
+}

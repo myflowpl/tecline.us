@@ -1,0 +1,14 @@
+{
+  "title": "Valve spindle",
+  "code": "R4RV",
+  "price": 7.4,
+  "currency": "EUR",
+  "category": "products/tecline/service/spare-parts,2,5438",
+  "photos": [
+    {
+      "src": "img/3165/wrzeciono-do-szczeliwa-zaworu.jpg",
+      "alt": "Wrzeciono do szczeliwa zaworu"
+    }
+  ],
+  "description": "\n<h2>Product description</h2>\nSTEM\n"
+}

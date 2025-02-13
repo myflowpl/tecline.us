@@ -1,0 +1,14 @@
+{
+  "title": "Knife Eagle",
+  "code": "50001",
+  "price": 54.34,
+  "currency": "EUR",
+  "category": "products/tecline/knives,2,5440",
+  "photos": [
+    {
+      "src": "img/4543/noz-eagle.jpg",
+      "alt": "Nóż Eagle"
+    }
+  ],
+  "description": "\n<h2>Product description</h2>\n\n"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Knife scissors",
+  "code": "50005",
+  "price": 90.15,
+  "currency": "EUR",
+  "category": "products/tecline/knives,2,5440",
+  "photos": [
+    {
+      "src": "img/4547/noz-nozyce.jpg",
+      "alt": "Nóż nożyce"
+    },
+    {
+      "src": "img/4548/knife-scissors.jpg",
+      "alt": "Knife scissors"
+    }
+  ],
+  "description": "\n<h2>Product description</h2>\n\n"
+}

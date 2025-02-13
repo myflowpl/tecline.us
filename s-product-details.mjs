@@ -32,6 +32,8 @@ const scrape = async () => {
       const code = q('.code strong').textContent;
       const price = q('.price .current').textContent.split(' ')[0] || '0';
       const description = q('.details-desc').innerHTML;
+      const crumbs = qa('.breadcrumb a');
+      const category = crumbs[crumbs.length-2].getAttribute('href');
       const photos = qa('.slider-nav img').map((img) => {
         return {
           src: img.getAttribute('src'),
@@ -44,6 +46,7 @@ const scrape = async () => {
         code,
         price: parseFloat(price.replace(',', '.'), 10),
         currency: 'EUR',
+        category,
         photos,
         description,
       };
@@ -54,7 +57,7 @@ const scrape = async () => {
     console.log('       :', dest)
     fs.writeFileSync(dest, JSON.stringify(details, null, 2));
 
-    break;
+    // break;
   }
 
 

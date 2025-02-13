@@ -1,0 +1,18 @@
+{
+  "title": "Knife scissors - small",
+  "code": "50007",
+  "price": 70.9,
+  "currency": "EUR",
+  "category": "products/tecline/knives,2,5440",
+  "photos": [
+    {
+      "src": "img/4580/noz-nozyce-mini.jpg",
+      "alt": "Nóż nożyce-mini"
+    },
+    {
+      "src": "img/4581/knife-scissors-small.jpg",
+      "alt": "Knife scissors - small"
+    }
+  ],
+  "description": "\n<h2>Product description</h2>\n\n"
+}
