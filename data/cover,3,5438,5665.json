@@ -1,0 +1,14 @@
+{
+  "title": "Cover",
+  "code": "88036-1",
+  "price": 2.5,
+  "currency": "EUR",
+  "category": "products/tecline/service/spare-parts,2,5438",
+  "photos": [
+    {
+      "src": "img/984/pokrywa-do-ii-st-r5-ice-tec-r3tec-octo-czarna.jpg",
+      "alt": "Pokrywa do II-st. R5 ICE/ TEC, R3TEC OCTO - czarna"
+    }
+  ],
+  "description": "\n<h2>Product description</h2>\nCover for II-st. R 5 ICE/TEC, R3TEC OCTO - black\n"
+}

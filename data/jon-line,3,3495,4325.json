@@ -1,0 +1,18 @@
+{
+  "title": "Jon Line",
+  "code": "86025",
+  "price": 33.06,
+  "currency": "EUR",
+  "category": "products/tecline/accessories,2,3495",
+  "photos": [
+    {
+      "src": "img/4469/linka-z-hakiem-jon-line.jpg",
+      "alt": "Linka z hakiem do opustówki (Jon line)"
+    },
+    {
+      "src": "img/4470/jon-line.jpg",
+      "alt": "Jon Line"
+    }
+  ],
+  "description": "\n<h2>Product description</h2>\n\n"
+}

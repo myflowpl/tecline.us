@@ -1,0 +1,422 @@
+[
+  {
+    "url": "products/tecline/regulators,2,5141",
+    "label": "Regulators",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/regulators/first-stages,2,5142",
+    "label": "First stages",
+    "parent": "products/tecline/regulators,2,5141"
+  },
+  {
+    "url": "products/tecline/regulators/second-stages,2,5143",
+    "label": "Second stages",
+    "parent": "products/tecline/regulators,2,5141"
+  },
+  {
+    "url": "products/tecline/regulators/regulators-sets,2,5144",
+    "label": "Regulators sets",
+    "parent": "products/tecline/regulators,2,5141"
+  },
+  {
+    "url": "products/tecline/regulators/regulators-sets/single-tank-regs,2,5145",
+    "label": "Single tank regs",
+    "parent": "products/tecline/regulators/regulators-sets,2,5144"
+  },
+  {
+    "url": "products/tecline/regulators/regulators-sets/double-tank-regs,2,5146",
+    "label": "Double tank regs",
+    "parent": "products/tecline/regulators/regulators-sets,2,5144"
+  },
+  {
+    "url": "products/tecline/regulators/regulators-sets/sidemount-regs,2,5147",
+    "label": "Sidemount regs",
+    "parent": "products/tecline/regulators/regulators-sets,2,5144"
+  },
+  {
+    "url": "products/tecline/regulators/regulators-sets/stage-tank-regs,2,5148",
+    "label": "Stage tank regs",
+    "parent": "products/tecline/regulators/regulators-sets,2,5144"
+  },
+  {
+    "url": "products/tecline/regulators/accessories-for-regs,2,5159",
+    "label": "Accessories for regs",
+    "parent": "products/tecline/regulators,2,5141"
+  },
+  {
+    "url": "products/tecline/buoyancy-control,2,5163",
+    "label": "Buoyancy control",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/buoyancy-control/sidemount-bcd-s,2,5168",
+    "label": "Sidemount BCD's",
+    "parent": "products/tecline/buoyancy-control,2,5163"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/sidemount-bcd-s/sidemount-sets,2,5170",
+    "label": "Sidemount sets",
+    "parent": "products/tecline/buoyancy-control/sidemount-bcd-s,2,5168"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/sidemount-bcd-s/sm-accessories,2,5171",
+    "label": "SM accessories",
+    "parent": "products/tecline/buoyancy-control/sidemount-bcd-s,2,5168"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/rebreather-wings,2,5169",
+    "label": "Rebreather wings",
+    "parent": "products/tecline/buoyancy-control,2,5163"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/single-tank-bcd-s,2,5164",
+    "label": "Single tank BCD's",
+    "parent": "products/tecline/buoyancy-control,2,5163"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/single-tank-bcd-s/single-tank-bcd-sets,2,5174",
+    "label": "Single tank BCD sets",
+    "parent": "products/tecline/buoyancy-control/single-tank-bcd-s,2,5164"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/single-tank-bcd-s/single-tank-wings,2,5175",
+    "label": "Single tank wings",
+    "parent": "products/tecline/buoyancy-control/single-tank-bcd-s,2,5164"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/double-tank-bcd-s,2,5165",
+    "label": "Double tank BCD's",
+    "parent": "products/tecline/buoyancy-control,2,5163"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/double-tank-bcd-s/double-tank-wings,2,5177",
+    "label": "Double tank wings",
+    "parent": "products/tecline/buoyancy-control/double-tank-bcd-s,2,5165"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/double-tank-bcd-s/double-tank-bcd-sets,2,5176",
+    "label": "Double tank BCD sets",
+    "parent": "products/tecline/buoyancy-control/double-tank-bcd-s,2,5165"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components,2,5167",
+    "label": "Components",
+    "parent": "products/tecline/buoyancy-control,2,5163"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components/backplates-harnesses,2,5231",
+    "label": "Backplates + harnesses",
+    "parent": "products/tecline/buoyancy-control/components,2,5167"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components/backplates,2,5236",
+    "label": "Backplates",
+    "parent": "products/tecline/buoyancy-control/components,2,5167"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components/harnesses-only,2,5237",
+    "label": "Harnesses only",
+    "parent": "products/tecline/buoyancy-control/components,2,5167"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components/single-tank-adapters,2,5185",
+    "label": "Single tank adapters",
+    "parent": "products/tecline/buoyancy-control/components,2,5167"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components/tank-bands,2,5186",
+    "label": "Tank bands",
+    "parent": "products/tecline/buoyancy-control/components,2,5167"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components/weight-pockets,2,5187",
+    "label": "Weight pockets",
+    "parent": "products/tecline/buoyancy-control/components,2,5167"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components/trim-pockets,2,5188",
+    "label": "Trim pockets",
+    "parent": "products/tecline/buoyancy-control/components,2,5167"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components/cargo-pockets,2,5189",
+    "label": "Cargo pockets",
+    "parent": "products/tecline/buoyancy-control/components,2,5167"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components/backplate-softpads,2,5190",
+    "label": "Backplate softpads",
+    "parent": "products/tecline/buoyancy-control/components,2,5167"
+  },
+  {
+    "url": "products/tecline/buoyancy-control/components/other-accessories,2,5191",
+    "label": "Other accessories",
+    "parent": "products/tecline/buoyancy-control/components,2,5167"
+  },
+  {
+    "url": "products/tecline/hoses-rubber-and-proflex,2,5206",
+    "label": "Hoses rubber and Proflex",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/hoses-rubber-and-proflex/proflex-hoses,2,5207",
+    "label": "Proflex hoses",
+    "parent": "products/tecline/hoses-rubber-and-proflex,2,5206"
+  },
+  {
+    "url": "products/tecline/hoses-rubber-and-proflex/proflex-hoses/lp-hoses,2,5209",
+    "label": "LP hoses",
+    "parent": "products/tecline/hoses-rubber-and-proflex/proflex-hoses,2,5207"
+  },
+  {
+    "url": "products/tecline/hoses-rubber-and-proflex/proflex-hoses/hp-hoses,2,5210",
+    "label": "HP hoses",
+    "parent": "products/tecline/hoses-rubber-and-proflex/proflex-hoses,2,5207"
+  },
+  {
+    "url": "products/tecline/hoses-rubber-and-proflex/rubber-hoses,2,5208",
+    "label": "Rubber hoses",
+    "parent": "products/tecline/hoses-rubber-and-proflex,2,5206"
+  },
+  {
+    "url": "products/tecline/hoses-rubber-and-proflex/rubber-hoses/lp-hoses,2,5211",
+    "label": "LP hoses",
+    "parent": "products/tecline/hoses-rubber-and-proflex/rubber-hoses,2,5208"
+  },
+  {
+    "url": "products/tecline/hoses-rubber-and-proflex/rubber-hoses/hp-hoses,2,5212",
+    "label": "HP hoses",
+    "parent": "products/tecline/hoses-rubber-and-proflex/rubber-hoses,2,5208"
+  },
+  {
+    "url": "products/tecline/instruments,2,3019",
+    "label": "Instruments",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/instrument-mounts,2,3311",
+    "label": "Instrument mounts",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/fins,2,5193",
+    "label": "Fins",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/fins/powerjet,2,5194",
+    "label": "PowerJet",
+    "parent": "products/tecline/fins,2,5193"
+  },
+  {
+    "url": "products/tecline/fins/jetstream,2,5195",
+    "label": "JetStream",
+    "parent": "products/tecline/fins,2,5193"
+  },
+  {
+    "url": "products/tecline/fins/lightjet,2,5226",
+    "label": "LightJet",
+    "parent": "products/tecline/fins,2,5193"
+  },
+  {
+    "url": "products/tecline/fins/spring-straps,2,5196",
+    "label": "Spring straps",
+    "parent": "products/tecline/fins,2,5193"
+  },
+  {
+    "url": "products/tecline/masks,2,3026",
+    "label": "Masks",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/masks/masks,2,5197",
+    "label": "Masks",
+    "parent": "products/tecline/masks,2,3026"
+  },
+  {
+    "url": "products/tecline/masks/accessories,2,5198",
+    "label": "Accessories",
+    "parent": "products/tecline/masks,2,3026"
+  },
+  {
+    "url": "products/tecline/surface-marker-buoys,2,5199",
+    "label": "Surface marker buoys",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/surface-marker-buoys/open-smb-s,2,5200",
+    "label": "Open SMB's",
+    "parent": "products/tecline/surface-marker-buoys,2,5199"
+  },
+  {
+    "url": "products/tecline/surface-marker-buoys/semi-closed-smb-s,2,5201",
+    "label": "Semi-closed SMB's",
+    "parent": "products/tecline/surface-marker-buoys,2,5199"
+  },
+  {
+    "url": "products/tecline/surface-marker-buoys/closed-smb-s,2,5202",
+    "label": "Closed SMB's",
+    "parent": "products/tecline/surface-marker-buoys,2,5199"
+  },
+  {
+    "url": "products/tecline/reels-and-spools,2,5203",
+    "label": "Reels and spools",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/reels-and-spools/reels,2,5204",
+    "label": "Reels",
+    "parent": "products/tecline/reels-and-spools,2,5203"
+  },
+  {
+    "url": "products/tecline/reels-and-spools/spools,2,5205",
+    "label": "Spools",
+    "parent": "products/tecline/reels-and-spools,2,5203"
+  },
+  {
+    "url": "products/tecline/bolt-snaps,2,3028",
+    "label": "Bolt snaps",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/lights,2,3379",
+    "label": "Lights",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/valves,2,3022",
+    "label": "Valves",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/stage-rigging-kits,2,3024",
+    "label": "Stage rigging kits",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/bags,2,5055",
+    "label": "Bags",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/accessories,2,3495",
+    "label": "Accessories",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/knives,2,5440",
+    "label": "Knives",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/dry-suit-infl-system,2,3025",
+    "label": "Dry suit infl. system",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/wetsuits,2,4167",
+    "label": "Wetsuits",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/hoods,2,4841",
+    "label": "Hoods",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/boots-and-gloves,2,5343",
+    "label": "Boots and Gloves ",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/boots-and-gloves/boots,2,5344",
+    "label": "Boots",
+    "parent": "products/tecline/boots-and-gloves,2,5343"
+  },
+  {
+    "url": "products/tecline/boots-and-gloves/gloves,2,5345",
+    "label": "Gloves",
+    "parent": "products/tecline/boots-and-gloves,2,5343"
+  },
+  {
+    "url": "products/tecline/drysuit-undergarments,2,3017",
+    "label": "Drysuit undergarments",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/military-line,2,5429",
+    "label": "Military Line",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/military-line/accessories-ml,2,5434",
+    "label": "Accessories ML",
+    "parent": "products/tecline/military-line,2,5429"
+  },
+  {
+    "url": "products/tecline/military-line/regulators-ml,2,5430",
+    "label": "Regulators ML",
+    "parent": "products/tecline/military-line,2,5429"
+  },
+  {
+    "url": "products/tecline/military-line/butle-i-zawory-ml,2,5442",
+    "label": "Butle i zawory ML",
+    "parent": "products/tecline/military-line,2,5429"
+  },
+  {
+    "url": "products/tecline/military-line/instruments-ml,2,5431",
+    "label": "Instruments ML",
+    "parent": "products/tecline/military-line,2,5429"
+  },
+  {
+    "url": "products/tecline/military-line/bolt-snaps-ml,2,5446",
+    "label": "Bolt snaps ML",
+    "parent": "products/tecline/military-line,2,5429"
+  },
+  {
+    "url": "products/tecline/military-line/led-lights-ml,2,5444",
+    "label": "LED lights ML",
+    "parent": "products/tecline/military-line,2,5429"
+  },
+  {
+    "url": "products/tecline/military-line/masks-ml,2,5445",
+    "label": "Masks ML",
+    "parent": "products/tecline/military-line,2,5429"
+  },
+  {
+    "url": "products/tecline/military-line/wings-ml,2,5443",
+    "label": "Wings ML",
+    "parent": "products/tecline/military-line,2,5429"
+  },
+  {
+    "url": "products/tecline/military-line/harnesses-ml,2,5433",
+    "label": "Harnesses ML",
+    "parent": "products/tecline/military-line,2,5429"
+  },
+  {
+    "url": "products/tecline/military-line/hoses-ml,2,5441",
+    "label": "Hoses ML",
+    "parent": "products/tecline/military-line,2,5429"
+  },
+  {
+    "url": "products/tecline/service,2,5436",
+    "label": "Service",
+    "parent": null
+  },
+  {
+    "url": "products/tecline/service/service-tools,2,5437",
+    "label": "Service Tools",
+    "parent": "products/tecline/service,2,5436"
+  },
+  {
+    "url": "products/tecline/service/spare-parts,2,5438",
+    "label": "Spare Parts",
+    "parent": "products/tecline/service,2,5436"
+  },
+  {
+    "url": "products/tecline/promotional-materials,2,4871",
+    "label": "Promotional materials",
+    "parent": null
+  }
+]

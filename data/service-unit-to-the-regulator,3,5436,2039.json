@@ -1,0 +1,14 @@
+{
+  "title": "Service unit to the regulator",
+  "code": "88070",
+  "price": 351.45,
+  "currency": "EUR",
+  "category": "products/tecline/service,2,5436",
+  "photos": [
+    {
+      "src": "img/1005/urzadzenie-serwisowe-do-regulacji-automatu.jpg",
+      "alt": "Urządzenie serwisowe do regulacji automatu"
+    }
+  ],
+  "description": "\n<h2>Product description</h2>\n\n"
+}
