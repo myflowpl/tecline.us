@@ -19,9 +19,20 @@ html, body {
 
 header {
     background: #111111;
-    color: #AAAAAA;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    color: #535B5E;
+    .active {
+        color: #AAAAAA;
+
+    }
 }
 footer {
     background: #111111;
     color: #AAAAAA;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

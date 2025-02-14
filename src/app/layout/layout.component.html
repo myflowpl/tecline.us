@@ -1,20 +1,19 @@
-<div class="flex flex-col min-h-full">
+<div class="flex flex-col min-h-[101vh]">
     <header class="">
         <div class="container flex gap-9 items-center">
             <a routerLink="/">
                 <img src="/logo.png" alt="" class="h-[112px]">
             </a>
     
-            <a routerLink="/">About</a>
-            <a routerLink="catalog">Catalog</a>
+            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">About</a>
+            <a routerLink="catalog" routerLinkActive="active">Catalog</a>
         </div>
     </header>
-    <div class="flex-1">
-        <router-outlet />
-        <main class="container">
+    <main class="flex-1">
+        <div class="container">
             <router-outlet />
-        </main>
-    </div>
+        </div>
+    </main>
     <footer class="p-9 text-center">
         © 2025 Tecline.us All rights reserved! 
     </footer>
