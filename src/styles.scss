@@ -1,1 +1,27 @@
-@import "tailwindcss";
+@use "tailwindcss";
+
+@utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+html, body {
+    color: #535B5E;
+    font: 14px/1.5 "Open Sans", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #F9F9F9;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+header {
+    background: #111111;
+    color: #AAAAAA;
+}
+footer {
+    background: #111111;
+    color: #AAAAAA;
+}
