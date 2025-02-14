@@ -1,4 +1,4 @@
-<div class="flex">
+<div class="flex gap-9 mt-9">
     <nav>
 
         <mat-tree [dataSource]="categories()" [treeControl]="treeControl" class="example-tree">
@@ -30,4 +30,23 @@
             </mat-nested-tree-node>
         </mat-tree>
     </nav>
+    <main>
+        {{url()}}
+
+        @for (item of list(); track $index) {
+            <div class="flex gap-4 mb-4">
+                <!-- <img class="w-[100px] h-[100px]" [src]="baseUrl+item.photoSrc" [alt]="item.photoAlt"> -->
+                <img class="w-[100px] h-[100px]" src="https://katalog.tecline.com.pl/en/img/medium/5535/baner-perfect-configuration-70x100-cm" [alt]="item.photoAlt">
+                <div>
+                    <h2>{{item.title}}</h2>
+                    <p>Ref number: {{item.code}}</p>
+                    <p>Price: {{item.price}}</p>
+                </div>
+            </div>
+        }
+
+
+        <!-- <pre>{{list() | json}}</pre> -->
+        <!-- <router-outlet /> -->
+    </main>
 </div>
