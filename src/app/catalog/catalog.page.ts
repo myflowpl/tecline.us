@@ -7,24 +7,9 @@ import { HttpClient } from '@angular/common/http';
 import { NestedTreeControl } from '@angular/cdk/tree';
 import { injectUrl } from '../utils';
 import { JsonPipe } from '@angular/common';
-
-interface CategoryNode {
-  url: string;
-  label: string;
-  parent: string | null;
-  children: CategoryNode[],
-}
-interface ProductItem {
-  url: string;
-  title: string;
-  category: string;
-  children: CategoryNode[],
-  photoSrc: string,
-  photoAlt: string,
-  code: string,
-  price: number,
-  currency: "EUR" | "USD",
-}
+import { CategoryNode, ProductItem } from '../models';
+import { CartService } from '../cart.service';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @Component({
   selector: 'app-catalog',
@@ -37,6 +22,7 @@ interface ProductItem {
     MatButtonModule,
     RouterOutlet,
     JsonPipe,
+    MatSidenavModule,
   ],
 })
 export class CatalogPage {
@@ -45,10 +31,13 @@ export class CatalogPage {
   url = injectUrl(url => url.replace('/catalog/', ''));
   categories = signal<CategoryNode[]>([]);
   products = signal<ProductItem[]>([]);
-  category = signal<ProductItem[]>([]);
   list = computed(() => this.products().filter(p => p.category === this.url()));
-  rootCategories = computed(() => this.categories().filter(c => !c.parent));
+  category = computed(() => this.categories().find(c => c.url === this.url()));
+  parent = computed(() => this.category() ? this.categories().find(c => c.url === this.category()?.parent) : null);
+  granparent = computed(() => this.parent() ? this.categories().find(c => c.url === this.parent()?.parent) : null);
+  tree = computed(() => buildTree(this.categories()));
 
+  cart = inject(CartService);
 
   treeControl = new NestedTreeControl<CategoryNode>(node => node.children);
   childrenAccessor = (node: CategoryNode) => node.children && [];
@@ -56,7 +45,7 @@ export class CatalogPage {
 
   constructor() {
     this.http.get<CategoryNode[]>('/categories.json').subscribe(categories => {
-      this.categories.set(buildTree(categories));
+      this.categories.set(categories);
     })
     this.http.get<ProductItem[]>('/products.json').subscribe(products => {
       this.products.set(products);
