@@ -49,7 +49,9 @@ const scrape = async () => {
 
         const list = qa('.products .product');
         return list.map((product) => {
-          const photoSrc = product.querySelector('.product-image img')?.getAttribute('src') || null;
+          const data = product.querySelector('.product-image img')?.getAttribute('data-src') || null;
+          const src = product.querySelector('.product-image img')?.getAttribute('src') || null;
+          const photoSrc = data || src;
           const photoAlt = product.querySelector('.product-image img')?.getAttribute('alt') || null;
           const url = product.querySelector('.product-name a').getAttribute('href');
           const title = product.querySelector('.product-name a').textContent;
@@ -70,7 +72,9 @@ const scrape = async () => {
       allProducts.push(...products);
       console.log(`Products page ${currentPage}/${maxPages} ${url}: `, products.length);
       currentPage++;
+      // break;
     }
+    // break;
   }
 
   // save all categories
