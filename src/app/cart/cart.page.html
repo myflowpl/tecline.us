@@ -1,0 +1,32 @@
+<h1 class="font-bold my-9 text-xl">Your Order</h1>
+
+@for (item of cart.products(); track $index) {
+    <div class="flex gap-4 mb-4 w-full">
+        <img class="w-[100px] h-[100px]" [src]="baseUrl+item.photoSrc" [alt]="item.photoAlt">
+        <div class="flex-auto">
+            <h2 class="font-bold">{{item.title}}</h2>
+            <p class="my-2">REF. NUMBER:  <span class="font-bold">{{item.code}}</span></p>
+            <p>Price: <span class="font-bold">{{item.price}}</span> EUR
+            <!-- </p><p> -->
+                <button mat-stroked-button class="float-right" (click)="cart.remove(item)">
+                    <mat-icon>remove_shopping_cart</mat-icon>
+                </button>
+            </p>
+
+            <p class="my-2 flex gap-4">Quantity:  
+                <button mat-stroked-button class="float-right" (click)="cart.removeQuantity(item)">
+                    <mat-icon>remove_circle_outline</mat-icon>
+                </button>
+                <span class="font-bold">{{item.quantity}}</span>
+                <button mat-stroked-button class="float-right" (click)="cart.addQuantity(item)">
+                    <mat-icon>add_circle_outline</mat-icon>
+                </button>
+            
+            </p>
+        </div>
+    </div>
+}
+
+<h1 class="font-bold my-9 text-xl">Email with Your Order</h1>
+
+<textarea class="w-full h-[300px] border p-2 bg-white rounded font-mono">{{order()}}</textarea>
