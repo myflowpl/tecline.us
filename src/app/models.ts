@@ -17,6 +17,19 @@ export interface ProductItem {
     price: number,
     currency: "EUR" | "USD",
 }
+export interface Photo {
+    src: string;
+    alt: string;
+}
+export interface ProductDetails {
+    title: string;
+    code: string,
+    price: number,
+    currency: "EUR" | "USD",
+    category: string;
+    photos: Photo[];
+    description: string;
+}
 export interface CartItem {
     url: string;
     title: string;

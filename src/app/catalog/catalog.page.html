@@ -7,7 +7,7 @@
                 <!-- There is inline padding applied to this node using styles.
                   This padding value depends on the mat-icon-button width. -->
                 <mat-nested-tree-node *matTreeNodeDef="let node" (click)="$event.stopPropagation(); sidenav.close()">
-                    <a [routerLink]="[node.url]" class="flex items-center cursor-pointer w-full leaf">
+                    <a [routerLink]="createCategoryUrl(node.url)" class="flex items-center cursor-pointer w-full leaf">
                         <span>{{node.label}}</span>
                     </a>
                 </mat-nested-tree-node>
@@ -15,7 +15,7 @@
                 <mat-nested-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodeToggle
                     [cdkTreeNodeTypeaheadLabel]="node.label" (click)="sidenav.close()">
                     <div class="mat-tree-node">
-                        <a [routerLink]="[node.url]" class="flex items-center gap-4 cursor-pointer w-full">
+                        <a [routerLink]="createCategoryUrl(node.url)" class="flex items-center gap-4 cursor-pointer w-full">
                             <span class="flex-1">{{node.label}}</span>
     
                             <mat-icon class="mat-icon-rtl-mirror">
@@ -34,11 +34,9 @@
     </mat-sidenav>
     <mat-sidenav-content>
         <main class="flex-1">
-            <h1 class="font-bold mt-6 text-lg mb-9 flex items-center gap-2 cursor-pointer" (click)="sidenav.toggle()">
-                <button class="mt-3">
-                    <mat-icon>menu</mat-icon>
-                </button>
-
+            <h1 class="font-bold mt-6 mr-9 text-lg mb-9 flex items-center gap-2 cursor-pointer" (click)="sidenav.toggle()">
+                Tecline
+                <mat-icon class="mat-icon-rtl-mirror">chevron_right</mat-icon>
                 {{granparent()?.label}} 
                 @if (!category()?.label) {
                     <mat-icon class="mat-icon-rtl-mirror">chevron_left</mat-icon>
@@ -53,10 +51,19 @@
                 }
                  {{category()?.label}} 
                  <span class="flex-auto"></span>
-                 @if (category()?.label) {
+                 @if (category()?.label && !product()) {
                      <span class="font-base font-normal">({{list().length}} products)</span>
                  }
+                 @if (product()) {
+                     <a class="font-base font-normal" [routerLink]="createCategoryUrl(product()!.category)">
+                        <mat-icon class="mat-icon-rtl-mirror">close</mat-icon>
+                    </a>
+                 }
             </h1>
+            
+            @if (product()) {
+                <app-product [product]="product()"></app-product>
+            }
     
             @for (item of list(); track $index) {
                 <div class="flex gap-4 mb-4 w-full">
@@ -70,6 +77,9 @@
                                 <mat-icon>add_shopping_cart</mat-icon>
                                 Order
                             </button>
+                            <a mat-stroked-button class="float-right mr-9" [routerLink]="['/catalog/product', item.url]">
+                                Details
+                            </a>
                             <!-- <mat-icon>remove_shopping_cart</mat-icon> -->
                         </p>
                     </div>
