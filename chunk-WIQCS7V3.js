@@ -1,0 +1,1 @@
+import{Kb as s,cb as a,vb as o,wb as i}from"./chunk-BB4PGFQO.js";var n=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=a({type:t,selectors:[["app-category-list"]],decls:2,vars:0,template:function(e,c){e&1&&(o(0,"p"),s(1,"category-list works!"),i())},encapsulation:2})};export{n as CategoryListPage};
